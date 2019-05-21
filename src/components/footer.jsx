@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDom from "react-dom";
 
-function MyInfo() {
+function Footer() {
   return (
     <body>
       <h1>Bjarki Hreinn Viðarsson</h1>
@@ -15,4 +15,4 @@ function MyInfo() {
   );
 }
 
-export default MyInfo;
+export default Footer;

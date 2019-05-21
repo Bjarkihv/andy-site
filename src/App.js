@@ -1,11 +1,15 @@
 import React from "react";
-import MyInfo from "./components/MyInfo";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Homepage from "./pages/homePage";
 import "./assets/css/default.min.css";
 
 function App() {
   return (
     <div className="App">
-      <MyInfo />
+      <Header />
+      <Homepage />
+      <Footer />
     </div>
   );
 }
