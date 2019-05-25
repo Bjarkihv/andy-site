@@ -1,0 +1,15 @@
+h1 {
+}
+.bar {
+  background-color: #dddddd;
+}
+li {
+}
+ul {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
